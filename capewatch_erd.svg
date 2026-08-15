@@ -1,0 +1,157 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="1080" height="704" viewBox="0 0 1080 704" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="1080" height="704" fill="#FFFDF8"/>
+<text x="540.0" y="32" text-anchor="middle" font-size="21" font-weight="700" fill="#3C3489" font-family="Verdana, Arial, sans-serif">Capewatch DB — Entity Relationship Diagram</text>
+<text x="60" y="52" font-size="12" font-weight="600" fill="#534AB7" font-family="Verdana, Arial, sans-serif">CHARACTERS &amp; POWERS</text>
+<text x="420" y="52" font-size="12" font-weight="600" fill="#3B6D11" font-family="Verdana, Arial, sans-serif">TEAMS</text>
+<text x="760" y="52" font-size="12" font-weight="600" fill="#993C1D" font-family="Verdana, Arial, sans-serif">BATTLES &amp; HISTORY</text>
+<rect x="60" y="60" width="230" height="294" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="1.3"/>
+<path d="M 60 70 A10 10 0 0 1 70 60 H 280 A10 10 0 0 1 290 70 V 90 H 60 Z" fill="#7F77DD"/>
+<text x="175.0" y="80.0" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF" font-family="Verdana, Arial, sans-serif">character</text>
+<rect x="60" y="90" width="230" height="22" fill="#EEEDFE"/>
+<text x="70" y="105.0" font-size="12" font-weight="700" text-decoration="underline" fill="#26215C" font-family="Verdana, Arial, sans-serif">character_id  (PK)</text>
+<rect x="60" y="112" width="230" height="22" fill="#F7F6FD"/>
+<text x="70" y="127.0" font-size="12" font-weight="400"  fill="#26215C" font-family="Verdana, Arial, sans-serif">name</text>
+<rect x="60" y="134" width="230" height="22" fill="#EEEDFE"/>
+<text x="70" y="149.0" font-size="12" font-weight="400"  fill="#26215C" font-family="Verdana, Arial, sans-serif">alias</text>
+<rect x="60" y="156" width="230" height="22" fill="#F7F6FD"/>
+<text x="70" y="171.0" font-size="12" font-weight="400"  fill="#26215C" font-family="Verdana, Arial, sans-serif">category</text>
+<rect x="60" y="178" width="230" height="22" fill="#EEEDFE"/>
+<text x="70" y="193.0" font-size="12" font-weight="400"  fill="#26215C" font-family="Verdana, Arial, sans-serif">status</text>
+<rect x="60" y="200" width="230" height="22" fill="#F7F6FD"/>
+<text x="70" y="215.0" font-size="12" font-weight="400"  fill="#26215C" font-family="Verdana, Arial, sans-serif">power_type</text>
+<rect x="60" y="222" width="230" height="22" fill="#EEEDFE"/>
+<text x="70" y="237.0" font-size="12" font-weight="400"  fill="#26215C" font-family="Verdana, Arial, sans-serif">threat_level</text>
+<rect x="60" y="244" width="230" height="22" fill="#F7F6FD"/>
+<text x="70" y="259.0" font-size="12" font-weight="400"  fill="#26215C" font-family="Verdana, Arial, sans-serif">origin_note</text>
+<rect x="60" y="266" width="230" height="22" fill="#EEEDFE"/>
+<text x="70" y="281.0" font-size="12" font-weight="400"  fill="#26215C" font-family="Verdana, Arial, sans-serif">debut_date</text>
+<rect x="60" y="288" width="230" height="22" fill="#F7F6FD"/>
+<text x="70" y="303.0" font-size="12" font-weight="400"  fill="#26215C" font-family="Verdana, Arial, sans-serif">is_team_only</text>
+<rect x="60" y="310" width="230" height="22" fill="#EEEDFE"/>
+<text x="70" y="325.0" font-size="12" font-weight="400"  fill="#26215C" font-family="Verdana, Arial, sans-serif">created_at</text>
+<rect x="60" y="332" width="230" height="22" fill="#F7F6FD"/>
+<text x="70" y="347.0" font-size="12" font-weight="400"  fill="#26215C" font-family="Verdana, Arial, sans-serif">updated_at</text>
+<rect x="60" y="60" width="230" height="294" rx="10" fill="none" stroke="#534AB7" stroke-width="1.3"/>
+<line x1="60" y1="90" x2="290" y2="90" stroke="#534AB7" stroke-width="1"/>
+<rect x="60" y="394" width="230" height="96" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="1.3"/>
+<path d="M 60 404 A10 10 0 0 1 70 394 H 280 A10 10 0 0 1 290 404 V 424 H 60 Z" fill="#7F77DD"/>
+<text x="175.0" y="414.0" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF" font-family="Verdana, Arial, sans-serif">power</text>
+<rect x="60" y="424" width="230" height="22" fill="#EEEDFE"/>
+<text x="70" y="439.0" font-size="12" font-weight="700" text-decoration="underline" fill="#26215C" font-family="Verdana, Arial, sans-serif">power_id  (PK)</text>
+<rect x="60" y="446" width="230" height="22" fill="#F7F6FD"/>
+<text x="70" y="461.0" font-size="12" font-weight="400"  fill="#26215C" font-family="Verdana, Arial, sans-serif">name</text>
+<rect x="60" y="468" width="230" height="22" fill="#EEEDFE"/>
+<text x="70" y="483.0" font-size="12" font-weight="400"  fill="#26215C" font-family="Verdana, Arial, sans-serif">category</text>
+<rect x="60" y="394" width="230" height="96" rx="10" fill="none" stroke="#534AB7" stroke-width="1.3"/>
+<line x1="60" y1="424" x2="290" y2="424" stroke="#534AB7" stroke-width="1"/>
+<rect x="60" y="530" width="230" height="74" rx="10" fill="#FFFFFF" stroke="#534AB7" stroke-width="1.3"/>
+<path d="M 60 540 A10 10 0 0 1 70 530 H 280 A10 10 0 0 1 290 540 V 560 H 60 Z" fill="#7F77DD"/>
+<text x="175.0" y="550.0" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF" font-family="Verdana, Arial, sans-serif">character_power</text>
+<rect x="60" y="560" width="230" height="22" fill="#EEEDFE"/>
+<text x="70" y="575.0" font-size="12" font-weight="600"  fill="#26215C" font-family="Verdana, Arial, sans-serif">character_id  (FK)</text>
+<rect x="60" y="582" width="230" height="22" fill="#F7F6FD"/>
+<text x="70" y="597.0" font-size="12" font-weight="600"  fill="#26215C" font-family="Verdana, Arial, sans-serif">power_id  (FK)</text>
+<rect x="60" y="530" width="230" height="74" rx="10" fill="none" stroke="#534AB7" stroke-width="1.3"/>
+<line x1="60" y1="560" x2="290" y2="560" stroke="#534AB7" stroke-width="1"/>
+<rect x="420" y="60" width="230" height="96" rx="10" fill="#FFFFFF" stroke="#3B6D11" stroke-width="1.3"/>
+<path d="M 420 70 A10 10 0 0 1 430 60 H 640 A10 10 0 0 1 650 70 V 90 H 420 Z" fill="#63A24A"/>
+<text x="535.0" y="80.0" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF" font-family="Verdana, Arial, sans-serif">team</text>
+<rect x="420" y="90" width="230" height="22" fill="#EAF3DE"/>
+<text x="430" y="105.0" font-size="12" font-weight="700" text-decoration="underline" fill="#173404" font-family="Verdana, Arial, sans-serif">team_id  (PK)</text>
+<rect x="420" y="112" width="230" height="22" fill="#F3F8EC"/>
+<text x="430" y="127.0" font-size="12" font-weight="400"  fill="#173404" font-family="Verdana, Arial, sans-serif">team_name</text>
+<rect x="420" y="134" width="230" height="22" fill="#EAF3DE"/>
+<text x="430" y="149.0" font-size="12" font-weight="400"  fill="#173404" font-family="Verdana, Arial, sans-serif">formed_date</text>
+<rect x="420" y="60" width="230" height="96" rx="10" fill="none" stroke="#3B6D11" stroke-width="1.3"/>
+<line x1="420" y1="90" x2="650" y2="90" stroke="#3B6D11" stroke-width="1"/>
+<rect x="420" y="196" width="230" height="140" rx="10" fill="#FFFFFF" stroke="#3B6D11" stroke-width="1.3"/>
+<path d="M 420 206 A10 10 0 0 1 430 196 H 640 A10 10 0 0 1 650 206 V 226 H 420 Z" fill="#63A24A"/>
+<text x="535.0" y="216.0" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF" font-family="Verdana, Arial, sans-serif">team_membership</text>
+<rect x="420" y="226" width="230" height="22" fill="#EAF3DE"/>
+<text x="430" y="241.0" font-size="12" font-weight="700" text-decoration="underline" fill="#173404" font-family="Verdana, Arial, sans-serif">membership_id  (PK)</text>
+<rect x="420" y="248" width="230" height="22" fill="#F3F8EC"/>
+<text x="430" y="263.0" font-size="12" font-weight="600"  fill="#173404" font-family="Verdana, Arial, sans-serif">character_id  (FK)</text>
+<rect x="420" y="270" width="230" height="22" fill="#EAF3DE"/>
+<text x="430" y="285.0" font-size="12" font-weight="600"  fill="#173404" font-family="Verdana, Arial, sans-serif">team_id  (FK)</text>
+<rect x="420" y="292" width="230" height="22" fill="#F3F8EC"/>
+<text x="430" y="307.0" font-size="12" font-weight="400"  fill="#173404" font-family="Verdana, Arial, sans-serif">joined_date</text>
+<rect x="420" y="314" width="230" height="22" fill="#EAF3DE"/>
+<text x="430" y="329.0" font-size="12" font-weight="400"  fill="#173404" font-family="Verdana, Arial, sans-serif">left_date</text>
+<rect x="420" y="196" width="230" height="140" rx="10" fill="none" stroke="#3B6D11" stroke-width="1.3"/>
+<line x1="420" y1="226" x2="650" y2="226" stroke="#3B6D11" stroke-width="1"/>
+<rect x="760" y="60" width="230" height="118" rx="10" fill="#FFFFFF" stroke="#993C1D" stroke-width="1.3"/>
+<path d="M 760 70 A10 10 0 0 1 770 60 H 980 A10 10 0 0 1 990 70 V 90 H 760 Z" fill="#D85A30"/>
+<text x="875.0" y="80.0" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF" font-family="Verdana, Arial, sans-serif">battle</text>
+<rect x="760" y="90" width="230" height="22" fill="#FAECE7"/>
+<text x="770" y="105.0" font-size="12" font-weight="700" text-decoration="underline" fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">battle_id  (PK)</text>
+<rect x="760" y="112" width="230" height="22" fill="#FCF4F0"/>
+<text x="770" y="127.0" font-size="12" font-weight="400"  fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">battle_date</text>
+<rect x="760" y="134" width="230" height="22" fill="#FAECE7"/>
+<text x="770" y="149.0" font-size="12" font-weight="400"  fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">outcome</text>
+<rect x="760" y="156" width="230" height="22" fill="#FCF4F0"/>
+<text x="770" y="171.0" font-size="12" font-weight="400"  fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">description</text>
+<rect x="760" y="60" width="230" height="118" rx="10" fill="none" stroke="#993C1D" stroke-width="1.3"/>
+<line x1="760" y1="90" x2="990" y2="90" stroke="#993C1D" stroke-width="1"/>
+<rect x="760" y="218" width="230" height="118" rx="10" fill="#FFFFFF" stroke="#993C1D" stroke-width="1.3"/>
+<path d="M 760 228 A10 10 0 0 1 770 218 H 980 A10 10 0 0 1 990 228 V 248 H 760 Z" fill="#D85A30"/>
+<text x="875.0" y="238.0" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF" font-family="Verdana, Arial, sans-serif">battle_participant</text>
+<rect x="760" y="248" width="230" height="22" fill="#FAECE7"/>
+<text x="770" y="263.0" font-size="12" font-weight="600"  fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">battle_id  (FK)</text>
+<rect x="760" y="270" width="230" height="22" fill="#FCF4F0"/>
+<text x="770" y="285.0" font-size="12" font-weight="600"  fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">character_id  (FK)</text>
+<rect x="760" y="292" width="230" height="22" fill="#FAECE7"/>
+<text x="770" y="307.0" font-size="12" font-weight="400"  fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">role</text>
+<rect x="760" y="314" width="230" height="22" fill="#FCF4F0"/>
+<text x="770" y="329.0" font-size="12" font-weight="400"  fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">result_note</text>
+<rect x="760" y="218" width="230" height="118" rx="10" fill="none" stroke="#993C1D" stroke-width="1.3"/>
+<line x1="760" y1="248" x2="990" y2="248" stroke="#993C1D" stroke-width="1"/>
+<rect x="760" y="376" width="230" height="184" rx="10" fill="#FFFFFF" stroke="#993C1D" stroke-width="1.3"/>
+<path d="M 760 386 A10 10 0 0 1 770 376 H 980 A10 10 0 0 1 990 386 V 406 H 760 Z" fill="#D85A30"/>
+<text x="875.0" y="396.0" text-anchor="middle" font-size="14" font-weight="600" fill="#FFFFFF" font-family="Verdana, Arial, sans-serif">character_status_history</text>
+<rect x="760" y="406" width="230" height="22" fill="#FAECE7"/>
+<text x="770" y="421.0" font-size="12" font-weight="700" text-decoration="underline" fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">history_id  (PK)</text>
+<rect x="760" y="428" width="230" height="22" fill="#FCF4F0"/>
+<text x="770" y="443.0" font-size="12" font-weight="600"  fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">character_id  (FK)</text>
+<rect x="760" y="450" width="230" height="22" fill="#FAECE7"/>
+<text x="770" y="465.0" font-size="12" font-weight="400"  fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">old_status</text>
+<rect x="760" y="472" width="230" height="22" fill="#FCF4F0"/>
+<text x="770" y="487.0" font-size="12" font-weight="400"  fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">new_status</text>
+<rect x="760" y="494" width="230" height="22" fill="#FAECE7"/>
+<text x="770" y="509.0" font-size="12" font-weight="400"  fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">changed_at</text>
+<rect x="760" y="516" width="230" height="22" fill="#FCF4F0"/>
+<text x="770" y="531.0" font-size="12" font-weight="400"  fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">reason</text>
+<rect x="760" y="538" width="230" height="22" fill="#FAECE7"/>
+<text x="770" y="553.0" font-size="12" font-weight="600"  fill="#4A1B0C" font-family="Verdana, Arial, sans-serif">battle_id  (FK)</text>
+<rect x="760" y="376" width="230" height="184" rx="10" fill="none" stroke="#993C1D" stroke-width="1.3"/>
+<line x1="760" y1="406" x2="990" y2="406" stroke="#993C1D" stroke-width="1"/>
+<path d="M 60 435.0 L 40 435.0 L 40 593.0 L 60 593.0" fill="none" stroke="#534AB7" stroke-width="2"/>
+<rect x="36.0" y="426.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#534AB7" stroke-width="1"/><text x="44" y="439.0" text-anchor="middle" font-size="11" font-weight="700" fill="#534AB7" font-family="Verdana, Arial, sans-serif">1</text>
+<rect x="36.0" y="584.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#534AB7" stroke-width="1"/><text x="44" y="597.0" text-anchor="middle" font-size="11" font-weight="700" fill="#534AB7" font-family="Verdana, Arial, sans-serif">N</text>
+<path d="M 60 101.0 L 25 101.0 L 25 571.0 L 60 571.0" fill="none" stroke="#534AB7" stroke-width="2"/>
+<rect x="36.0" y="92.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#534AB7" stroke-width="1"/><text x="44" y="105.0" text-anchor="middle" font-size="11" font-weight="700" fill="#534AB7" font-family="Verdana, Arial, sans-serif">1</text>
+<rect x="36.0" y="562.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#534AB7" stroke-width="1"/><text x="44" y="575.0" text-anchor="middle" font-size="11" font-weight="700" fill="#534AB7" font-family="Verdana, Arial, sans-serif">N</text>
+<path d="M 420 101.0 L 405 101.0 L 405 281.0 L 420 281.0" fill="none" stroke="#3B6D11" stroke-width="2"/>
+<rect x="396.0" y="92.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#3B6D11" stroke-width="1"/><text x="404" y="105.0" text-anchor="middle" font-size="11" font-weight="700" fill="#3B6D11" font-family="Verdana, Arial, sans-serif">1</text>
+<rect x="396.0" y="272.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#3B6D11" stroke-width="1"/><text x="404" y="285.0" text-anchor="middle" font-size="11" font-weight="700" fill="#3B6D11" font-family="Verdana, Arial, sans-serif">N</text>
+<path d="M 290 101.0 L 350 101.0 L 350 259.0 L 420 259.0" fill="none" stroke="#3B6D11" stroke-width="2"/>
+<rect x="298.0" y="92.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#3B6D11" stroke-width="1"/><text x="306" y="105.0" text-anchor="middle" font-size="11" font-weight="700" fill="#3B6D11" font-family="Verdana, Arial, sans-serif">1</text>
+<rect x="396.0" y="250.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#3B6D11" stroke-width="1"/><text x="404" y="263.0" text-anchor="middle" font-size="11" font-weight="700" fill="#3B6D11" font-family="Verdana, Arial, sans-serif">N</text>
+<path d="M 760 101.0 L 740 101.0 L 740 259.0 L 760 259.0" fill="none" stroke="#993C1D" stroke-width="2"/>
+<rect x="736.0" y="92.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#993C1D" stroke-width="1"/><text x="744" y="105.0" text-anchor="middle" font-size="11" font-weight="700" fill="#993C1D" font-family="Verdana, Arial, sans-serif">1</text>
+<rect x="736.0" y="250.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#993C1D" stroke-width="1"/><text x="744" y="263.0" text-anchor="middle" font-size="11" font-weight="700" fill="#993C1D" font-family="Verdana, Arial, sans-serif">N</text>
+<path d="M 290 101.0 L 330 101.0 L 330 172 L 700 172 L 700 281.0 L 760 281.0" fill="none" stroke="#993C1D" stroke-width="2"/>
+<rect x="298.0" y="92.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#993C1D" stroke-width="1"/><text x="306" y="105.0" text-anchor="middle" font-size="11" font-weight="700" fill="#993C1D" font-family="Verdana, Arial, sans-serif">1</text>
+<rect x="736.0" y="272.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#993C1D" stroke-width="1"/><text x="744" y="285.0" text-anchor="middle" font-size="11" font-weight="700" fill="#993C1D" font-family="Verdana, Arial, sans-serif">N</text>
+<path d="M 990 101.0 L 1010 101.0 L 1010 549.0 L 990 549.0" fill="none" stroke="#B5471F" stroke-width="2"/>
+<rect x="998.0" y="92.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#B5471F" stroke-width="1"/><text x="1006" y="105.0" text-anchor="middle" font-size="11" font-weight="700" fill="#B5471F" font-family="Verdana, Arial, sans-serif">1</text>
+<rect x="998.0" y="540.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#B5471F" stroke-width="1"/><text x="1006" y="553.0" text-anchor="middle" font-size="11" font-weight="700" fill="#B5471F" font-family="Verdana, Arial, sans-serif">N</text>
+<path d="M 290 101.0 L 310 101.0 L 310 172 L 680 172 L 680 439.0 L 760 439.0" fill="none" stroke="#B5471F" stroke-width="2"/>
+<rect x="298.0" y="92.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#B5471F" stroke-width="1"/><text x="306" y="105.0" text-anchor="middle" font-size="11" font-weight="700" fill="#B5471F" font-family="Verdana, Arial, sans-serif">1</text>
+<rect x="736.0" y="430.0" width="16" height="18" rx="9" fill="#FFFDF8" stroke="#B5471F" stroke-width="1"/><text x="744" y="443.0" text-anchor="middle" font-size="11" font-weight="700" fill="#B5471F" font-family="Verdana, Arial, sans-serif">N</text>
+<rect x="60" y="624" width="960" height="44" rx="10" fill="#F5F3EC" stroke="#D3D1C7" stroke-width="1"/>
+<circle cx="80" cy="640" r="5" fill="#7F77DD"/><text x="93" y="644" font-size="11" fill="#2C2C2A" font-family="Verdana, Arial, sans-serif">Character cluster</text>
+<circle cx="225" cy="640" r="5" fill="#63A24A"/><text x="238" y="644" font-size="11" fill="#2C2C2A" font-family="Verdana, Arial, sans-serif">Team cluster</text>
+<circle cx="355" cy="640" r="5" fill="#D85A30"/><text x="368" y="644" font-size="11" fill="#2C2C2A" font-family="Verdana, Arial, sans-serif">Battle / history cluster</text>
+<text x="80" y="660" font-size="10" fill="#5F5E5A" font-family="Verdana, Arial, sans-serif">PK = underlined bold  |  FK = bold, tagged (FK)  |  "1" = one side, "N" = many side. Each line touches the exact PK/FK row it connects.</text>
+</svg>
