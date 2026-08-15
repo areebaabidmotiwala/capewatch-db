@@ -1,6 +1,6 @@
 # Capewatch DB
 
-A PostgreSQL database project modeling a superhero universe — characters, teams, and battle history — built to showcase schema design, recursive queries, window functions, triggers, and automated status tracking.
+A PostgreSQL database project modeling a superhero universe - characters, teams, and battle history - built to showcase schema design, recursive queries, window functions, triggers, and automated status tracking.
 
 All characters, teams, and events are original creations, built specifically to avoid any trademark/copyright overlap with existing comic universes.
 
@@ -25,13 +25,13 @@ All characters, teams, and events are original creations, built specifically to 
 
 ## What this project demonstrates
 
-- **Schema design** — 8 normalized tables, one-to-many and many-to-many relationships, nullable fields used deliberately (e.g. `left_date`, `alias`)
-- **Recursive CTE** — traces a character's teammate network outward through shared team membership (see `07_showcase_queries.sql`)
-- **Window functions** — threat-level ranking within category, and running win-count per hero over time
+- **Schema design** - 8 normalized tables, one-to-many and many-to-many relationships, nullable fields used deliberately (e.g. `left_date`, `alias`)
+- **Recursive CTE** - traces a character's teammate network outward through shared team membership (see `07_showcase_queries.sql`)
+- **Window functions** - threat-level ranking within category, and running win-count per hero over time
 - **Triggers** — `updated_at` auto-maintained on every update; battle outcomes with a status-relevant `result_note` automatically log to `character_status_history`
-- **Views** — `active_team_roster`, a live view of each team's current active members
-- **Scheduled job (function)** — `decay_inactive_villain_threat()`, a callable function meant to run nightly via `pg_cron` or an external scheduler in a deployed environment. Not wired to a live scheduler in this local/demo setup — run it manually with `SELECT decay_inactive_villain_threat();` to see it work
-- **Indexing** — an index added on `character.threat_level` with `EXPLAIN ANALYZE` before/after (see notes in `07_showcase_queries.sql` — on a dataset this small, Postgres may reasonably still choose a sequential scan; the file explains why)
+- **Views** - `active_team_roster`, a live view of each team's current active members
+- **Scheduled job (function)** - `decay_inactive_villain_threat()`, a callable function meant to run nightly via `pg_cron` or an external scheduler in a deployed environment. Not wired to a live scheduler in this local/demo setup - run it manually with `SELECT decay_inactive_villain_threat();` to see it work
+- **Indexing** - an index added on `character.threat_level` with `EXPLAIN ANALYZE` before/after (see notes in `07_showcase_queries.sql` - on a dataset this small, Postgres may reasonably still choose a sequential scan; the file explains why)
 
 ## Setup
 
